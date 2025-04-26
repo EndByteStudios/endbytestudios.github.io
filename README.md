@@ -54,4 +54,4 @@ Want to share something cool? Check out [CONTRIBUTING.md](CONTRIBUTING.md)
 
 ---
 
-Made with 💙 by the community. Join us on [Discord](https://discord.gg/YOUR_INVITE_LINK)
+Made with 💙 by the community. Join us on [Discord](https://discord.gg/x2Ny3ar4Pf)
