@@ -1,0 +1,112 @@
+{
+  "resources": [
+    {
+      "id": "1",
+      "name": "freeCodeCamp",
+      "description": "Learn to code for free with interactive tutorials and projects",
+      "category": "Learning",
+      "url": "https://www.freecodecamp.org/",
+      "tags": ["education", "web development", "programming"],
+      "isOpenSource": true
+    },
+    {
+      "id": "2",
+      "name": "The Odin Project",
+      "description": "Free full-stack curriculum with hands-on projects",
+      "category": "Learning",
+      "url": "https://www.theodinproject.com/",
+      "tags": ["curriculum", "web development", "full-stack"],
+      "isOpenSource": true
+    },
+    {
+      "id": "3",
+      "name": "Undraw",
+      "description": "Open-source illustrations for any idea you can imagine",
+      "category": "Design",
+      "url": "https://undraw.co/",
+      "tags": ["illustrations", "svg", "graphics"],
+      "isOpenSource": false
+    },
+    {
+      "id": "4",
+      "name": "VS Code",
+      "description": "Free, open-source code editor with powerful features",
+      "category": "Developer Tools",
+      "url": "https://code.visualstudio.com/",
+      "tags": ["editor", "productivity", "extensions"],
+      "isOpenSource": true
+    },
+    {
+      "id": "5",
+      "name": "Netlify",
+      "description": "Free tier hosting for static sites and serverless functions",
+      "category": "Hosting",
+      "url": "https://www.netlify.com/",
+      "tags": ["hosting", "deployment", "CI/CD"],
+      "isOpenSource": false
+    },
+    {
+      "id": "6",
+      "name": "JSONPlaceholder",
+      "description": "Free fake API for testing and prototyping",
+      "category": "APIs",
+      "url": "https://jsonplaceholder.typicode.com/",
+      "tags": ["API", "testing", "mock data"],
+      "isOpenSource": true
+    },
+    {
+      "id": "7",
+      "name": "Eloquent JavaScript",
+      "description": "Free online book about JavaScript programming",
+      "category": "Books",
+      "url": "https://eloquentjavascript.net/",
+      "tags": ["javascript", "programming", "ebook"],
+      "isOpenSource": false
+    },
+    {
+      "id": "8",
+      "name": "Dev.to",
+      "description": "Community of software developers writing articles and sharing knowledge",
+      "category": "Communities",
+      "url": "https://dev.to/",
+      "tags": ["community", "articles", "networking"],
+      "isOpenSource": true
+    },
+    {
+      "id": "9",
+      "name": "GitHub Student Developer Pack",
+      "description": "Free developer tools and services for students",
+      "category": "Developer Tools",
+      "url": "https://education.github.com/pack",
+      "tags": ["student", "tools", "free tier"],
+      "isOpenSource": false
+    },
+    {
+      "id": "10",
+      "name": "MDN Web Docs",
+      "description": "Comprehensive documentation for web technologies",
+      "category": "Learning",
+      "url": "https://developer.mozilla.org/",
+      "tags": ["documentation", "web development", "reference"],
+      "isOpenSource": true
+    },
+    {
+      "id": "11",
+      "name": "Framer Motion",
+      "description": "A production-ready animation library for React",
+      "category": "Developer Tools",
+      "url": "https://www.framer.com/motion/",
+      "tags": ["react", "animation", "UI"],
+      "isOpenSource": true
+    },
+    {
+      "id": "12",
+      "name": "Public APIs",
+      "description": "A collective list of free APIs for use in software and web development",
+      "category": "APIs",
+      "url": "https://github.com/public-apis/public-apis",
+      "tags": ["API", "collection", "reference"],
+      "isOpenSource": true
+    }
+  ]
+}
