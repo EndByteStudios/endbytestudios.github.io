@@ -2,110 +2,2702 @@
   "resources": [
     {
       "id": "1",
-      "name": "freeCodeCamp",
-      "description": "Learn to code for free with interactive tutorials and projects",
-      "category": "Learning",
-      "url": "https://www.freecodecamp.org/",
-      "tags": ["education", "web development", "programming"],
-      "isOpenSource": true
-    },
-    {
-      "id": "2",
-      "name": "The Odin Project",
-      "description": "Free full-stack curriculum with hands-on projects",
-      "category": "Learning",
-      "url": "https://www.theodinproject.com/",
-      "tags": ["curriculum", "web development", "full-stack"],
-      "isOpenSource": true
-    },
-    {
-      "id": "3",
-      "name": "Undraw",
-      "description": "Open-source illustrations for any idea you can imagine",
-      "category": "Design",
-      "url": "https://undraw.co/",
-      "tags": ["illustrations", "svg", "graphics"],
-      "isOpenSource": false
-    },
-    {
-      "id": "4",
-      "name": "VS Code",
-      "description": "Free, open-source code editor with powerful features",
-      "category": "Developer Tools",
-      "url": "https://code.visualstudio.com/",
-      "tags": ["editor", "productivity", "extensions"],
-      "isOpenSource": true
-    },
-    {
-      "id": "5",
-      "name": "Netlify",
-      "description": "Free tier hosting for static sites and serverless functions",
-      "category": "Hosting",
-      "url": "https://www.netlify.com/",
-      "tags": ["hosting", "deployment", "CI/CD"],
-      "isOpenSource": false
-    },
-    {
-      "id": "6",
-      "name": "JSONPlaceholder",
-      "description": "Free fake API for testing and prototyping",
-      "category": "APIs",
-      "url": "https://jsonplaceholder.typicode.com/",
-      "tags": ["API", "testing", "mock data"],
-      "isOpenSource": true
-    },
-    {
-      "id": "7",
-      "name": "Eloquent JavaScript",
-      "description": "Free online book about JavaScript programming",
-      "category": "Books",
-      "url": "https://eloquentjavascript.net/",
-      "tags": ["javascript", "programming", "ebook"],
-      "isOpenSource": false
-    },
-    {
-      "id": "8",
-      "name": "Dev.to",
-      "description": "Community of software developers writing articles and sharing knowledge",
-      "category": "Communities",
-      "url": "https://dev.to/",
-      "tags": ["community", "articles", "networking"],
-      "isOpenSource": true
-    },
-    {
-      "id": "9",
-      "name": "GitHub Student Developer Pack",
-      "description": "Free developer tools and services for students",
-      "category": "Developer Tools",
-      "url": "https://education.github.com/pack",
-      "tags": ["student", "tools", "free tier"],
-      "isOpenSource": false
-    },
-    {
-      "id": "10",
-      "name": "MDN Web Docs",
-      "description": "Comprehensive documentation for web technologies",
-      "category": "Learning",
-      "url": "https://developer.mozilla.org/",
-      "tags": ["documentation", "web development", "reference"],
-      "isOpenSource": true
-    },
-    {
-      "id": "11",
       "name": "Framer Motion",
-      "description": "A production-ready animation library for React",
+      "description": "A production-ready animation library for React.",
       "category": "Developer Tools",
       "url": "https://www.framer.com/motion/",
       "tags": ["react", "animation", "UI"],
       "isOpenSource": true
     },
     {
+      "id": "2",
+      "name": "FreeCodeCamp",
+      "description": "Learn to code for free with millions of developers.",
+      "category": "Learning",
+      "url": "https://www.freecodecamp.org/",
+      "tags": ["learning", "fullstack", "web development"],
+      "isOpenSource": true
+    },
+    {
+      "id": "3",
+      "name": "CS50 Web Programming",
+      "description": "Harvard’s course on Web Programming with Python and JavaScript.",
+      "category": "Learning",
+      "url": "https://cs50.harvard.edu/web/",
+      "tags": ["web development", "python", "backend"],
+      "isOpenSource": false
+    },
+    {
+      "id": "4",
+      "name": "Neovim",
+      "description": "Hyperextensible Vim-based text editor.",
+      "category": "Developer Tools",
+      "url": "https://neovim.io/",
+      "tags": ["editor", "vim", "productivity"],
+      "isOpenSource": true
+    },
+    {
+      "id": "5",
+      "name": "Roadmap.sh",
+      "description": "Developer roadmaps to learn modern technologies.",
+      "category": "Learning",
+      "url": "https://roadmap.sh/",
+      "tags": ["career", "frontend", "backend"],
+      "isOpenSource": true
+    },
+    {
+      "id": "6",
+      "name": "Frontend Mentor",
+      "description": "Practice building real-life projects from designs.",
+      "category": "Practice",
+      "url": "https://www.frontendmentor.io/",
+      "tags": ["frontend", "projects", "practice"],
+      "isOpenSource": false
+    },
+    {
+      "id": "7",
+      "name": "PaperMod",
+      "description": "Fast, clean Hugo theme inspired by material design.",
+      "category": "Developer Tools",
+      "url": "https://adityatelange.github.io/hugo-PaperMod/",
+      "tags": ["hugo", "themes", "opensource"],
+      "isOpenSource": true
+    },
+    {
+      "id": "8",
+      "name": "StackBlitz",
+      "description": "Instant online IDE for web development.",
+      "category": "Developer Tools",
+      "url": "https://stackblitz.com/",
+      "tags": ["ide", "frontend", "development"],
+      "isOpenSource": false
+    },
+    {
+      "id": "9",
+      "name": "Glitch",
+      "description": "Create, remix, and share apps instantly.",
+      "category": "Developer Tools",
+      "url": "https://glitch.com/",
+      "tags": ["apps", "projects", "web development"],
+      "isOpenSource": true
+    },
+    {
+      "id": "10",
+      "name": "Sourcegraph",
+      "description": "Universal code search for developers.",
+      "category": "Developer Tools",
+      "url": "https://sourcegraph.com/",
+      "tags": ["code search", "opensource", "productivity"],
+      "isOpenSource": true
+    },
+    {
+      "id": "11",
+      "name": "Web.dev",
+      "description": "Learn web best practices from Google.",
+      "category": "Learning",
+      "url": "https://web.dev/",
+      "tags": ["performance", "seo", "best practices"],
+      "isOpenSource": true
+    },
+    {
       "id": "12",
+      "name": "Open Source Society University",
+      "description": "Open curriculum for Computer Science education.",
+      "category": "Learning",
+      "url": "https://github.com/ossu/computer-science",
+      "tags": ["cs", "degree", "opensource"],
+      "isOpenSource": true
+    },
+    {
+      "id": "13",
+      "name": "Learn Git Branching",
+      "description": "Visual interactive Git branching tutorial.",
+      "category": "Learning",
+      "url": "https://learngitbranching.js.org/",
+      "tags": ["git", "learning", "practice"],
+      "isOpenSource": true
+    },
+    {
+      "id": "14",
+      "name": "Daily.dev",
+      "description": "Developer news aggregator and community.",
+      "category": "Community",
+      "url": "https://daily.dev/",
+      "tags": ["news", "community", "updates"],
+      "isOpenSource": true
+    },
+    {
+      "id": "15",
+      "name": "DevDocs",
+      "description": "Fast, offline-accessible API documentation browser.",
+      "category": "Documentation",
+      "url": "https://devdocs.io/",
+      "tags": ["api", "docs", "development"],
+      "isOpenSource": true
+    },
+    {
+      "id": "16",
+      "name": "Real Python",
+      "description": "Python tutorials, podcasts, and courses.",
+      "category": "Learning",
+      "url": "https://realpython.com/",
+      "tags": ["python", "backend", "learning"],
+      "isOpenSource": false
+    },
+    {
+      "id": "17",
+      "name": "OpenAI Cookbook",
+      "description": "Recipes for working with OpenAI models.",
+      "category": "Learning",
+      "url": "https://github.com/openai/openai-cookbook",
+      "tags": ["openai", "ai", "machine learning"],
+      "isOpenSource": true
+    },
+    {
+      "id": "18",
+      "name": "ML Cheatsheet",
+      "description": "Comprehensive cheat sheets for ML topics.",
+      "category": "Learning",
+      "url": "https://ml-cheatsheet.readthedocs.io/en/latest/",
+      "tags": ["ml", "ai", "learning"],
+      "isOpenSource": true
+    },
+    {
+      "id": "19",
+      "name": "Awesome Self-Hosted",
+      "description": "Huge curated list of self-hosted apps.",
+      "category": "Developer Tools",
+      "url": "https://github.com/awesome-selfhosted/awesome-selfhosted",
+      "tags": ["self-hosted", "opensource", "apps"],
+      "isOpenSource": true
+    },
+    {
+      "id": "20",
+      "name": "Design Resources for Developers",
+      "description": "Curated list of design tools and resources for devs.",
+      "category": "Design",
+      "url": "https://github.com/bradtraversy/design-resources-for-developers",
+      "tags": ["design", "tools", "ui"],
+      "isOpenSource": true
+    },
+    {
+      "id": "21",
       "name": "Public APIs",
-      "description": "A collective list of free APIs for use in software and web development",
-      "category": "APIs",
-      "url": "https://github.com/public-apis/public-apis",
-      "tags": ["API", "collection", "reference"],
+      "description": "A directory of free, open APIs.",
+      "category": "Developer Tools",
+      "url": "https://public-apis.io/",
+      "tags": ["apis", "development", "public"],
+      "isOpenSource": true
+    },
+    {
+      "id": "22",
+      "name": "Codrops",
+      "description": "Useful tutorials and inspirational designs.",
+      "category": "Design",
+      "url": "https://tympanus.net/codrops/",
+      "tags": ["design", "web", "uiux"],
+      "isOpenSource": false
+    },
+    {
+      "id": "23",
+      "name": "Squoosh",
+      "description": "Image compression web app.",
+      "category": "Tools",
+      "url": "https://squoosh.app/",
+      "tags": ["images", "compression", "tools"],
+      "isOpenSource": true
+    },
+    {
+      "id": "24",
+      "name": "W3Schools",
+      "description": "Largest web developer site.",
+      "category": "Learning",
+      "url": "https://www.w3schools.com/",
+      "tags": ["html", "css", "javascript"],
+      "isOpenSource": false
+    },
+    {
+      "id": "25",
+      "name": "Tabler Icons",
+      "description": "Free and open-source SVG icons.",
+      "category": "Design",
+      "url": "https://tabler-icons.io/",
+      "tags": ["icons", "ui", "svg"],
+      "isOpenSource": true
+    },
+    {
+      "id": "26",
+      "name": "Carbon",
+      "description": "Create and share beautiful images of code.",
+      "category": "Developer Tools",
+      "url": "https://carbon.now.sh/",
+      "tags": ["code", "images", "tools"],
+      "isOpenSource": true
+    },
+    {
+      "id": "27",
+      "name": "Vercel",
+      "description": "Deploy frontend apps easily.",
+      "category": "Hosting",
+      "url": "https://vercel.com/",
+      "tags": ["hosting", "frontend", "serverless"],
+      "isOpenSource": false
+    },
+    {
+      "id": "28",
+      "name": "Netlify",
+      "description": "Deploy sites directly from your Git repo.",
+      "category": "Hosting",
+      "url": "https://www.netlify.com/",
+      "tags": ["hosting", "jamstack", "git"],
+      "isOpenSource": false
+    },
+    {
+      "id": "29",
+      "name": "Awesome Vue",
+      "description": "Curated list of Vue.js resources.",
+      "category": "Learning",
+      "url": "https://github.com/vuejs/awesome-vue",
+      "tags": ["vue", "frontend", "opensource"],
+      "isOpenSource": true
+    },
+    {
+      "id": "30",
+      "name": "Hackathons.dev",
+      "description": "Find and join hackathons around the world.",
+      "category": "Community",
+      "url": "https://www.hackathons.dev/",
+      "tags": ["hackathons", "community", "events"],
+      "isOpenSource": true
+    },
+    {
+      "id": "31",
+      "name": "HyperUI",
+      "description": "Free open-source Tailwind CSS components.",
+      "category": "Design",
+      "url": "https://www.hyperui.dev/",
+      "tags": ["tailwind", "ui", "components"],
+      "isOpenSource": true
+    },
+    {
+      "id": "32",
+      "name": "React Hook Form",
+      "description": "Performant, flexible form library for React.",
+      "category": "Developer Tools",
+      "url": "https://react-hook-form.com/",
+      "tags": ["react", "forms", "validation"],
+      "isOpenSource": true
+    },
+    {
+      "id": "33",
+      "name": "Postwoman (Hoppscotch)",
+      "description": "Open-source API request builder.",
+      "category": "Developer Tools",
+      "url": "https://hoppscotch.io/",
+      "tags": ["api", "tools", "development"],
+      "isOpenSource": true
+    },
+    {
+      "id": "34",
+      "name": "UIverse",
+      "description": "Community-driven library of open-source UI elements.",
+      "category": "Design",
+      "url": "https://uiverse.io/",
+      "tags": ["ui", "components", "opensource"],
+      "isOpenSource": true
+    },
+    {
+      "id": "35",
+      "name": "Shadcn UI",
+      "description": "Build components that you own using Radix UI and TailwindCSS.",
+      "category": "Developer Tools",
+      "url": "https://ui.shadcn.dev/",
+      "tags": ["ui", "tailwind", "components"],
+      "isOpenSource": true
+    },
+    {
+      "id": "36",
+      "name": "Nhost",
+      "description": "Serverless backend for web and mobile apps.",
+      "category": "Backend",
+      "url": "https://nhost.io/",
+      "tags": ["backend", "graphql", "auth"],
+      "isOpenSource": true
+    },
+    {
+      "id": "37",
+      "name": "Hasura",
+      "description": "Instant GraphQL APIs on your data.",
+      "category": "Backend",
+      "url": "https://hasura.io/",
+      "tags": ["graphql", "api", "backend"],
+      "isOpenSource": true
+    },
+    {
+      "id": "38",
+      "name": "Astro",
+      "description": "The web framework for building fast content sites.",
+      "category": "Developer Tools",
+      "url": "https://astro.build/",
+      "tags": ["framework", "web development", "static sites"],
+      "isOpenSource": true
+    },
+    {
+      "id": "39",
+      "name": "Svelte",
+      "description": "Cybernetically enhanced web apps framework.",
+      "category": "Developer Tools",
+      "url": "https://svelte.dev/",
+      "tags": ["javascript", "framework", "frontend"],
+      "isOpenSource": true
+    },
+    {
+      "id": "40",
+      "name": "Next.js",
+      "description": "The React framework for production.",
+      "category": "Developer Tools",
+      "url": "https://nextjs.org/",
+      "tags": ["react", "framework", "fullstack"],
+      "isOpenSource": true
+    },
+    {
+      "id": "41",
+      "name": "Preline UI",
+      "description": "An open-source set of UI components built with TailwindCSS.",
+      "category": "Design",
+      "url": "https://preline.co/",
+      "tags": ["tailwind", "ui", "components"],
+      "isOpenSource": true
+    },
+    {
+      "id": "42",
+      "name": "Supabase",
+      "description": "Open-source Firebase alternative.",
+      "category": "Backend",
+      "url": "https://supabase.com/",
+      "tags": ["backend", "database", "authentication"],
+      "isOpenSource": true
+    },
+    {
+      "id": "43",
+      "name": "Dribbble",
+      "description": "Discover and showcase creative work.",
+      "category": "Design",
+      "url": "https://dribbble.com/",
+      "tags": ["design", "inspiration", "creative"],
+      "isOpenSource": false
+    },
+    {
+      "id": "44",
+      "name": "Behance",
+      "description": "Showcase and discover creative work.",
+      "category": "Design",
+      "url": "https://www.behance.net/",
+      "tags": ["design", "inspiration", "portfolio"],
+      "isOpenSource": false
+    },
+    {
+      "id": "45",
+      "name": "The Odin Project",
+      "description": "Open source full-stack curriculum.",
+      "category": "Learning",
+      "url": "https://www.theodinproject.com/",
+      "tags": ["learning", "fullstack", "development"],
+      "isOpenSource": true
+    },
+    {
+      "id": "46",
+      "name": "MDN Web Docs",
+      "description": "Resources for developers, by developers.",
+      "category": "Documentation",
+      "url": "https://developer.mozilla.org/",
+      "tags": ["documentation", "web", "standards"],
+      "isOpenSource": true
+    },
+    {
+      "id": "47",
+      "name": "Canva",
+      "description": "Online design and publishing tool.",
+      "category": "Design",
+      "url": "https://www.canva.com/",
+      "tags": ["design", "graphics", "editing"],
+      "isOpenSource": false
+    },
+    {
+      "id": "48",
+      "name": "Unsplash",
+      "description": "Beautiful free images & pictures.",
+      "category": "Assets",
+      "url": "https://unsplash.com/",
+      "tags": ["images", "free", "assets"],
+      "isOpenSource": false
+    },
+    {
+      "id": "49",
+      "name": "Heroicons",
+      "description": "Beautiful hand-crafted SVG icons.",
+      "category": "Design",
+      "url": "https://heroicons.com/",
+      "tags": ["icons", "tailwind", "ui"],
+      "isOpenSource": true
+    },
+    {
+      "id": "50",
+      "name": "Simple Icons",
+      "description": "Free SVG icons for popular brands.",
+      "category": "Design",
+      "url": "https://simpleicons.org/",
+      "tags": ["icons", "brands", "svg"],
+      "isOpenSource": true
+    },
+    {
+      "id": "51",
+      "name": "Codepen",
+      "description": "Social development environment for front-end designers and developers.",
+      "category": "Developer Tools",
+      "url": "https://codepen.io/",
+      "tags": ["frontend", "practice", "social"],
+      "isOpenSource": false
+    },
+    {
+      "id": "52",
+      "name": "Figma",
+      "description": "Collaborative interface design tool.",
+      "category": "Design",
+      "url": "https://figma.com/",
+      "tags": ["design", "collaboration", "uiux"],
+      "isOpenSource": false
+    },
+    {
+      "id": "53",
+      "name": "Anime.js",
+      "description": "Lightweight JavaScript animation library.",
+      "category": "Developer Tools",
+      "url": "https://animejs.com/",
+      "tags": ["animation", "javascript", "frontend"],
+      "isOpenSource": true
+    },
+    {
+      "id": "54",
+      "name": "LottieFiles",
+      "description": "Animations for websites and apps using Lottie.",
+      "category": "Design",
+      "url": "https://lottiefiles.com/",
+      "tags": ["animation", "design", "lottie"],
+      "isOpenSource": true
+    },
+    {
+      "id": "55",
+      "name": "Iconify",
+      "description": "Huge unified icon framework.",
+      "category": "Design",
+      "url": "https://iconify.design/",
+      "tags": ["icons", "framework", "ui"],
+      "isOpenSource": true
+    },
+    {
+      "id": "56",
+      "name": "Kinsta DevKinsta",
+      "description": "Local WordPress development suite by Kinsta.",
+      "category": "Developer Tools",
+      "url": "https://kinsta.com/devkinsta/",
+      "tags": ["wordpress", "local", "development"],
+      "isOpenSource": false
+    },
+    {
+      "id": "57",
+      "name": "DigitalOcean",
+      "description": "Cloud hosting for developers.",
+      "category": "Hosting",
+      "url": "https://www.digitalocean.com/",
+      "tags": ["cloud", "hosting", "servers"],
+      "isOpenSource": false
+    },
+    {
+      "id": "58",
+      "name": "PlanetScale",
+      "description": "Serverless database platform based on Vitess.",
+      "category": "Backend",
+      "url": "https://planetscale.com/",
+      "tags": ["database", "mysql", "backend"],
+      "isOpenSource": false
+    },
+    {
+      "id": "59",
+      "name": "Plaid",
+      "description": "APIs for banking data access.",
+      "category": "API",
+      "url": "https://plaid.com/",
+      "tags": ["api", "banking", "finance"],
+      "isOpenSource": false
+    },
+    {
+      "id": "60",
+      "name": "Meilisearch",
+      "description": "Blazing-fast open-source search engine.",
+      "category": "Developer Tools",
+      "url": "https://www.meilisearch.com/",
+      "tags": ["search", "opensource", "engine"],
+      "isOpenSource": true
+    },
+    {
+      "id": "61",
+      "name": "Remix",
+      "description": "Full stack web framework focused on UX.",
+      "category": "Developer Tools",
+      "url": "https://remix.run/",
+      "tags": ["react", "framework", "fullstack"],
+      "isOpenSource": true
+    },
+    {
+      "id": "62",
+      "name": "Turborepo",
+      "description": "High-performance build system for JavaScript and TypeScript codebases.",
+      "category": "Developer Tools",
+      "url": "https://turbo.build/repo",
+      "tags": ["monorepo", "build", "typescript"],
+      "isOpenSource": true
+    },
+    {
+      "id": "63",
+      "name": "Vite",
+      "description": "Next-generation front-end build tool.",
+      "category": "Developer Tools",
+      "url": "https://vitejs.dev/",
+      "tags": ["build", "frontend", "javascript"],
+      "isOpenSource": true
+    },
+    {
+      "id": "64",
+      "name": "DaisyUI",
+      "description": "Tailwind CSS Components Plugin.",
+      "category": "Design",
+      "url": "https://daisyui.com/",
+      "tags": ["tailwind", "ui", "plugin"],
+      "isOpenSource": true
+    },
+    {
+      "id": "65",
+      "name": "Blender",
+      "description": "Free and open-source 3D creation suite.",
+      "category": "Design",
+      "url": "https://www.blender.org/",
+      "tags": ["3d", "design", "animation"],
+      "isOpenSource": true
+    },
+    {
+      "id": "66",
+      "name": "Strapi",
+      "description": "Open-source Node.js Headless CMS.",
+      "category": "Backend",
+      "url": "https://strapi.io/",
+      "tags": ["cms", "nodejs", "backend"],
+      "isOpenSource": true
+    },
+    {
+      "id": "67",
+      "name": "Contentful",
+      "description": "API-first content management platform.",
+      "category": "Backend",
+      "url": "https://www.contentful.com/",
+      "tags": ["cms", "api", "content"],
+      "isOpenSource": false
+    },
+    {
+      "id": "68",
+      "name": "Pexels",
+      "description": "Free stock photos and videos.",
+      "category": "Assets",
+      "url": "https://www.pexels.com/",
+      "tags": ["photos", "videos", "assets"],
+      "isOpenSource": false
+    },
+    {
+      "id": "69",
+      "name": "Storyblok",
+      "description": "Headless CMS for developers and marketers.",
+      "category": "Backend",
+      "url": "https://www.storyblok.com/",
+      "tags": ["cms", "api", "content"],
+      "isOpenSource": false
+    },
+    {
+      "id": "70",
+      "name": "Glitch",
+      "description": "Simple app development environment for building fast projects.",
+      "category": "Developer Tools",
+      "url": "https://glitch.com/",
+      "tags": ["development", "hosting", "quick apps"],
+      "isOpenSource": false
+    },
+    {
+      "id": "71",
+      "name": "Raycast",
+      "description": "Supercharged productivity tool for MacOS.",
+      "category": "Productivity",
+      "url": "https://www.raycast.com/",
+      "tags": ["productivity", "mac", "workflow"],
+      "isOpenSource": false
+    },
+    {
+      "id": "72",
+      "name": "Replit",
+      "description": "Collaborative browser-based IDE.",
+      "category": "Developer Tools",
+      "url": "https://replit.com/",
+      "tags": ["ide", "code", "collaboration"],
+      "isOpenSource": false
+    },
+    {
+      "id": "73",
+      "name": "Wakatime",
+      "description": "Automated time tracking for developers.",
+      "category": "Productivity",
+      "url": "https://wakatime.com/",
+      "tags": ["tracking", "time", "developer tools"],
+      "isOpenSource": false
+    },
+    {
+      "id": "74",
+      "name": "Bruno",
+      "description": "Open-source API client alternative to Postman.",
+      "category": "Developer Tools",
+      "url": "https://www.usebruno.com/",
+      "tags": ["api", "client", "development"],
+      "isOpenSource": true
+    },
+    {
+      "id": "75",
+      "name": "Radix UI",
+      "description": "Primitives for building high-quality, accessible design systems.",
+      "category": "Developer Tools",
+      "url": "https://www.radix-ui.com/",
+      "tags": ["ui", "components", "accessibility"],
+      "isOpenSource": true
+    },
+    {
+      "id": "76",
+      "name": "IconScout",
+      "description": "Curated marketplace for icons, illustrations, and 3D assets.",
+      "category": "Assets",
+      "url": "https://iconscout.com/",
+      "tags": ["icons", "illustrations", "3d"],
+      "isOpenSource": false
+    },
+    {
+      "id": "77",
+      "name": "ReadMe",
+      "description": "Beautiful developer hubs and docs.",
+      "category": "Documentation",
+      "url": "https://readme.com/",
+      "tags": ["documentation", "developer", "api"],
+      "isOpenSource": false
+    },
+    {
+      "id": "78",
+      "name": "Docz",
+      "description": "Documentation generator for React projects.",
+      "category": "Documentation",
+      "url": "https://www.docz.site/",
+      "tags": ["react", "documentation", "developer tools"],
+      "isOpenSource": true
+    },
+    {
+      "id": "79",
+      "name": "Tauri",
+      "description": "Framework for building tiny, fast binaries for all major desktop platforms.",
+      "category": "Developer Tools",
+      "url": "https://tauri.app/",
+      "tags": ["desktop apps", "framework", "rust"],
+      "isOpenSource": true
+    },
+    {
+      "id": "80",
+      "name": "Expo",
+      "description": "Framework and platform for universal React apps.",
+      "category": "Developer Tools",
+      "url": "https://expo.dev/",
+      "tags": ["react native", "mobile apps", "framework"],
+      "isOpenSource": true
+    },
+    {
+      "id": "81",
+      "name": "Quill",
+      "description": "Powerful rich text editor.",
+      "category": "Developer Tools",
+      "url": "https://quilljs.com/",
+      "tags": ["editor", "text", "javascript"],
+      "isOpenSource": true
+    },
+    {
+      "id": "82",
+      "name": "Prismic",
+      "description": "Headless CMS to power websites.",
+      "category": "Backend",
+      "url": "https://prismic.io/",
+      "tags": ["cms", "content", "api"],
+      "isOpenSource": false
+    },
+    {
+      "id": "83",
+      "name": "Parcel",
+      "description": "Zero-configuration web application bundler.",
+      "category": "Developer Tools",
+      "url": "https://parceljs.org/",
+      "tags": ["build", "bundler", "javascript"],
+      "isOpenSource": true
+    },
+    {
+      "id": "84",
+      "name": "CodeSandbox",
+      "description": "Online code editor tailored for web development.",
+      "category": "Developer Tools",
+      "url": "https://codesandbox.io/",
+      "tags": ["code", "editor", "development"],
+      "isOpenSource": false
+    },
+    {
+      "id": "85",
+      "name": "Fathom Analytics",
+      "description": "Simple, privacy-focused website analytics.",
+      "category": "Analytics",
+      "url": "https://usefathom.com/",
+      "tags": ["analytics", "privacy", "tracking"],
+      "isOpenSource": true
+    },
+    {
+      "id": "86",
+      "name": "Plausible Analytics",
+      "description": "Lightweight and privacy-friendly web analytics.",
+      "category": "Analytics",
+      "url": "https://plausible.io/",
+      "tags": ["analytics", "privacy", "open-source"],
+      "isOpenSource": true
+    },
+    {
+      "id": "87",
+      "name": "Clerk",
+      "description": "User management and authentication made simple.",
+      "category": "Backend",
+      "url": "https://clerk.dev/",
+      "tags": ["authentication", "users", "backend"],
+      "isOpenSource": false
+    },
+    {
+      "id": "88",
+      "name": "Appwrite",
+      "description": "Backend server for web, mobile, and Flutter developers.",
+      "category": "Backend",
+      "url": "https://appwrite.io/",
+      "tags": ["backend", "api", "open-source"],
+      "isOpenSource": true
+    },
+    {
+      "id": "89",
+      "name": "Nextra",
+      "description": "Simple, powerful and flexible site generation framework with Next.js.",
+      "category": "Developer Tools",
+      "url": "https://nextra.site/",
+      "tags": ["docs", "nextjs", "framework"],
+      "isOpenSource": true
+    },
+    {
+      "id": "90",
+      "name": "Directus",
+      "description": "Instant GraphQL+REST API for SQL databases.",
+      "category": "Backend",
+      "url": "https://directus.io/",
+      "tags": ["backend", "graphql", "api"],
+      "isOpenSource": true
+    },
+    {
+      "id": "91",
+      "name": "ImageKit",
+      "description": "Media optimization and transformation service.",
+      "category": "Assets",
+      "url": "https://imagekit.io/",
+      "tags": ["images", "optimization", "cdn"],
+      "isOpenSource": false
+    },
+    {
+      "id": "92",
+      "name": "Snap.svg",
+      "description": "JavaScript library for modern SVG graphics.",
+      "category": "Developer Tools",
+      "url": "http://snapsvg.io/",
+      "tags": ["svg", "graphics", "javascript"],
+      "isOpenSource": true
+    },
+    {
+      "id": "93",
+      "name": "Anime.js",
+      "description": "Lightweight JavaScript animation library.",
+      "category": "Developer Tools",
+      "url": "https://animejs.com/",
+      "tags": ["animation", "javascript", "frontend"],
+      "isOpenSource": true
+    },
+    {
+      "id": "94",
+      "name": "Figma",
+      "description": "Collaborative interface design tool.",
+      "category": "Design",
+      "url": "https://figma.com/",
+      "tags": ["design", "collaboration", "ui"],
+      "isOpenSource": false
+    },
+    {
+      "id": "95",
+      "name": "Codepen",
+      "description": "Online community for testing and showcasing user-created HTML, CSS, and JavaScript.",
+      "category": "Developer Tools",
+      "url": "https://codepen.io/",
+      "tags": ["frontend", "testing", "demo"],
+      "isOpenSource": false
+    },
+    {
+      "id": "96",
+      "name": "Vitest",
+      "description": "A blazing fast unit test framework powered by Vite.",
+      "category": "Developer Tools",
+      "url": "https://vitest.dev/",
+      "tags": ["testing", "vite", "javascript"],
+      "isOpenSource": true
+    },
+    {
+      "id": "97",
+      "name": "Helix",
+      "description": "Post-modern text editor built in Rust.",
+      "category": "Developer Tools",
+      "url": "https://helix-editor.com/",
+      "tags": ["editor", "rust", "terminal"],
+      "isOpenSource": true
+    },
+    {
+      "id": "98",
+      "name": "DrawKit",
+      "description": "Beautiful free and premium hand-drawn vector illustrations.",
+      "category": "Assets",
+      "url": "https://www.drawkit.com/",
+      "tags": ["illustrations", "vector", "design"],
+      "isOpenSource": false
+    },
+    {
+      "id": "99",
+      "name": "Yarn",
+      "description": "Fast, reliable, and secure dependency management.",
+      "category": "Developer Tools",
+      "url": "https://yarnpkg.com/",
+      "tags": ["package manager", "javascript", "nodejs"],
+      "isOpenSource": true
+    },
+    {
+      "id": "100",
+      "name": "TinaCMS",
+      "description": "Open-source CMS for React and Next.js.",
+      "category": "Backend",
+      "url": "https://tina.io/",
+      "tags": ["cms", "react", "nextjs"],
+      "isOpenSource": true
+    },
+    {
+      "id": "101",
+      "name": "Squoosh",
+      "description": "Image compression tool from Google.",
+      "category": "Assets",
+      "url": "https://squoosh.app/",
+      "tags": ["images", "compression", "optimization"],
+      "isOpenSource": true
+    },
+    {
+      "id": "102",
+      "name": "LottieFiles",
+      "description": "Animate your app with beautiful Lottie animations.",
+      "category": "Assets",
+      "url": "https://lottiefiles.com/",
+      "tags": ["animations", "assets", "design"],
+      "isOpenSource": false
+    },
+    {
+      "id": "103",
+      "name": "Cal.com",
+      "description": "Scheduling infrastructure for everyone.",
+      "category": "Productivity",
+      "url": "https://cal.com/",
+      "tags": ["scheduling", "calendar", "open-source"],
+      "isOpenSource": true
+    },
+    {
+      "id": "104",
+      "name": "Ghost",
+      "description": "Powerful open-source publishing platform.",
+      "category": "Backend",
+      "url": "https://ghost.org/",
+      "tags": ["blog", "cms", "publishing"],
+      "isOpenSource": true
+    },
+    {
+      "id": "105",
+      "name": "Photopea",
+      "description": "Online advanced image editor supporting PSD and more.",
+      "category": "Design",
+      "url": "https://www.photopea.com/",
+      "tags": ["editor", "photoshop", "online"],
+      "isOpenSource": false
+    },
+    {
+      "id": "106",
+      "name": "Saas UI",
+      "description": "React components for building SaaS apps.",
+      "category": "Developer Tools",
+      "url": "https://saas-ui.dev/",
+      "tags": ["react", "components", "ui"],
+      "isOpenSource": true
+    },
+    {
+      "id": "107",
+      "name": "Socket.IO",
+      "description": "Real-time, bidirectional and event-based communication.",
+      "category": "Backend",
+      "url": "https://socket.io/",
+      "tags": ["real-time", "websocket", "backend"],
+      "isOpenSource": true
+    },
+    {
+      "id": "108",
+      "name": "Lucide",
+      "description": "Beautiful & consistent icon toolkit.",
+      "category": "Assets",
+      "url": "https://lucide.dev/",
+      "tags": ["icons", "design", "frontend"],
+      "isOpenSource": true
+    },
+    {
+      "id": "109",
+      "name": "Cypress",
+      "description": "Fast, easy and reliable testing for anything that runs in a browser.",
+      "category": "Developer Tools",
+      "url": "https://www.cypress.io/",
+      "tags": ["testing", "frontend", "javascript"],
+      "isOpenSource": true
+    },
+    {
+      "id": "110",
+      "name": "Chakra UI",
+      "description": "Simple, modular and accessible component library for React.",
+      "category": "Developer Tools",
+      "url": "https://chakra-ui.com/",
+      "tags": ["react", "components", "ui"],
+      "isOpenSource": true
+    },
+    {
+      "id": "111",
+      "name": "NextAuth.js",
+      "description": "Authentication for Next.js applications.",
+      "category": "Backend",
+      "url": "https://next-auth.js.org/",
+      "tags": ["nextjs", "authentication", "security"],
+      "isOpenSource": true
+    },
+    {
+      "id": "112",
+      "name": "Formik",
+      "description": "Build forms in React with ease.",
+      "category": "Developer Tools",
+      "url": "https://formik.org/",
+      "tags": ["forms", "react", "javascript"],
+      "isOpenSource": true
+    },
+    {
+      "id": "113",
+      "name": "Zustand",
+      "description": "A small, fast and scalable bearbones state-management solution.",
+      "category": "Developer Tools",
+      "url": "https://zustand-demo.pmnd.rs/",
+      "tags": ["state management", "react", "javascript"],
+      "isOpenSource": true
+    },
+    {
+      "id": "114",
+      "name": "Valtio",
+      "description": "Makes proxy-state simple for React and vanilla.",
+      "category": "Developer Tools",
+      "url": "https://valtio.pmnd.rs/",
+      "tags": ["state management", "react", "javascript"],
+      "isOpenSource": true
+    },
+    {
+      "id": "115",
+      "name": "React Hook Form",
+      "description": "Performant, flexible and extensible forms with easy-to-use validation.",
+      "category": "Developer Tools",
+      "url": "https://react-hook-form.com/",
+      "tags": ["forms", "react", "validation"],
+      "isOpenSource": true
+    },
+    {
+      "id": "116",
+      "name": "Prettier",
+      "description": "An opinionated code formatter.",
+      "category": "Developer Tools",
+      "url": "https://prettier.io/",
+      "tags": ["formatter", "code", "tools"],
+      "isOpenSource": true
+    },
+    {
+      "id": "117",
+      "name": "ESLint",
+      "description": "Find and fix problems in your JavaScript code.",
+      "category": "Developer Tools",
+      "url": "https://eslint.org/",
+      "tags": ["lint", "javascript", "code quality"],
+      "isOpenSource": true
+    },
+    {
+      "id": "118",
+      "name": "Crowdin",
+      "description": "Localization management platform for tech companies.",
+      "category": "Productivity",
+      "url": "https://crowdin.com/",
+      "tags": ["localization", "translation", "collaboration"],
+      "isOpenSource": false
+    },
+    {
+      "id": "119",
+      "name": "Typora",
+      "description": "A minimal markdown editor.",
+      "category": "Productivity",
+      "url": "https://typora.io/",
+      "tags": ["markdown", "editor", "writing"],
+      "isOpenSource": false
+    },
+    {
+      "id": "120",
+      "name": "LibreOffice",
+      "description": "Free and powerful office suite.",
+      "category": "Productivity",
+      "url": "https://www.libreoffice.org/",
+      "tags": ["office", "documents", "open-source"],
+      "isOpenSource": true
+    },
+    {
+      "id": "121",
+      "name": "MDX",
+      "description": "Markdown for the component era, combining JSX and Markdown.",
+      "category": "Developer Tools",
+      "url": "https://mdxjs.com/",
+      "tags": ["markdown", "react", "documentation"],
+      "isOpenSource": true
+    },
+    {
+      "id": "122",
+      "name": "Nodemailer",
+      "description": "Easy email sending from your Node.js applications.",
+      "category": "Backend",
+      "url": "https://nodemailer.com/",
+      "tags": ["email", "nodejs", "backend"],
+      "isOpenSource": true
+    },
+    {
+      "id": "123",
+      "name": "Tesseract.js",
+      "description": "Pure Javascript OCR for more than 100 languages.",
+      "category": "Developer Tools",
+      "url": "https://tesseract.projectnaptha.com/",
+      "tags": ["ocr", "image processing", "javascript"],
+      "isOpenSource": true
+    },
+    {
+      "id": "124",
+      "name": "React Spring",
+      "description": "Spring-physics-based animation library for React.",
+      "category": "Developer Tools",
+      "url": "https://react-spring.dev/",
+      "tags": ["react", "animation", "frontend"],
+      "isOpenSource": true
+    },
+    {
+      "id": "125",
+      "name": "LogRocket",
+      "description": "Frontend monitoring and product analytics.",
+      "category": "Productivity",
+      "url": "https://logrocket.com/",
+      "tags": ["analytics", "monitoring", "frontend"],
+      "isOpenSource": false
+    },
+    {
+      "id": "126",
+      "name": "Kap",
+      "description": "An open-source screen recorder built with Electron.",
+      "category": "Productivity",
+      "url": "https://getkap.co/",
+      "tags": ["screen recording", "electron", "productivity"],
+      "isOpenSource": true
+    },
+    {
+      "id": "127",
+      "name": "Render",
+      "description": "Cloud platform for deploying web apps, databases, and services.",
+      "category": "Hosting",
+      "url": "https://render.com/",
+      "tags": ["hosting", "backend", "cloud"],
+      "isOpenSource": false
+    },
+    {
+      "id": "128",
+      "name": "Hyper",
+      "description": "A terminal built on web technologies.",
+      "category": "Developer Tools",
+      "url": "https://hyper.is/",
+      "tags": ["terminal", "electron", "tools"],
+      "isOpenSource": true
+    },
+    {
+      "id": "129",
+      "name": "WindiCSS",
+      "description": "Next generation utility-first CSS framework.",
+      "category": "Developer Tools",
+      "url": "https://windicss.org/",
+      "tags": ["css", "framework", "frontend"],
+      "isOpenSource": true
+    },
+    {
+      "id": "130",
+      "name": "Remix",
+      "description": "Full stack web framework built on web fundamentals.",
+      "category": "Developer Tools",
+      "url": "https://remix.run/",
+      "tags": ["react", "framework", "fullstack"],
+      "isOpenSource": true
+    },
+    {
+      "id": "131",
+      "name": "Plausible Analytics",
+      "description": "Simple, privacy-friendly alternative to Google Analytics.",
+      "category": "Productivity",
+      "url": "https://plausible.io/",
+      "tags": ["analytics", "privacy", "open-source"],
+      "isOpenSource": true
+    },
+    {
+      "id": "132",
+      "name": "Astro",
+      "description": "Build faster websites with less client-side JavaScript.",
+      "category": "Developer Tools",
+      "url": "https://astro.build/",
+      "tags": ["frontend", "javascript", "static sites"],
+      "isOpenSource": true
+    },
+    {
+      "id": "133",
+      "name": "Prisma",
+      "description": "Next-generation Node.js and TypeScript ORM.",
+      "category": "Backend",
+      "url": "https://www.prisma.io/",
+      "tags": ["orm", "database", "typescript"],
+      "isOpenSource": true
+    },
+    {
+      "id": "134",
+      "name": "Upptime",
+      "description": "Open-source uptime monitor and status page powered entirely by GitHub Actions.",
+      "category": "Productivity",
+      "url": "https://upptime.js.org/",
+      "tags": ["monitoring", "github", "open-source"],
+      "isOpenSource": true
+    },
+    {
+      "id": "135",
+      "name": "Tauri",
+      "description": "Build smaller, faster, and more secure desktop apps with web technologies.",
+      "category": "Developer Tools",
+      "url": "https://tauri.app/",
+      "tags": ["desktop apps", "rust", "electron alternative"],
+      "isOpenSource": true
+    },
+    {
+      "id": "136",
+      "name": "Nhost",
+      "description": "Serverless backend for web and mobile apps.",
+      "category": "Backend",
+      "url": "https://nhost.io/",
+      "tags": ["backend", "graphql", "serverless"],
+      "isOpenSource": true
+    },
+    {
+      "id": "137",
+      "name": "Telegraph",
+      "description": "Publishing tool that allows creating richly formatted posts.",
+      "category": "Productivity",
+      "url": "https://telegra.ph/",
+      "tags": ["publishing", "blog", "anonymous"],
+      "isOpenSource": false
+    },
+    {
+      "id": "138",
+      "name": "Netlify CMS",
+      "description": "Open-source content management for Git workflows.",
+      "category": "Backend",
+      "url": "https://www.netlifycms.org/",
+      "tags": ["cms", "git", "content"],
+      "isOpenSource": true
+    },
+    {
+      "id": "139",
+      "name": "Pexels",
+      "description": "Free stock photos and videos shared by talented creators.",
+      "category": "Assets",
+      "url": "https://pexels.com/",
+      "tags": ["images", "videos", "stock"],
+      "isOpenSource": false
+    },
+    {
+      "id": "140",
+      "name": "Unsplash",
+      "description": "The internet’s source for freely usable images.",
+      "category": "Assets",
+      "url": "https://unsplash.com/",
+      "tags": ["images", "stock", "photography"],
+      "isOpenSource": false
+    },
+    {
+      "id": "141",
+      "name": "Coolors",
+      "description": "The super fast color palettes generator.",
+      "category": "Design",
+      "url": "https://coolors.co/",
+      "tags": ["colors", "design", "palettes"],
+      "isOpenSource": false
+    },
+    {
+      "id": "142",
+      "name": "Colorhunt",
+      "description": "Free and open platform for color inspiration.",
+      "category": "Design",
+      "url": "https://colorhunt.co/",
+      "tags": ["colors", "palettes", "design"],
+      "isOpenSource": false
+    },
+    {
+      "id": "143",
+      "name": "Feather Icons",
+      "description": "Simply beautiful open source icons.",
+      "category": "Assets",
+      "url": "https://feathericons.com/",
+      "tags": ["icons", "design", "open-source"],
+      "isOpenSource": true
+    },
+    {
+      "id": "144",
+      "name": "Boxicons",
+      "description": "Simple open-source icons carefully crafted.",
+      "category": "Assets",
+      "url": "https://boxicons.com/",
+      "tags": ["icons", "design", "frontend"],
+      "isOpenSource": true
+    },
+    {
+      "id": "145",
+      "name": "Storybook",
+      "description": "Frontend workshop for UI development.",
+      "category": "Developer Tools",
+      "url": "https://storybook.js.org/",
+      "tags": ["components", "frontend", "react"],
+      "isOpenSource": true
+    },
+    {
+      "id": "146",
+      "name": "Glitch",
+      "description": "Friendly community where you build the web apps from scratch.",
+      "category": "Hosting",
+      "url": "https://glitch.com/",
+      "tags": ["hosting", "apps", "code"],
+      "isOpenSource": false
+    },
+    {
+      "id": "147",
+      "name": "Wappalyzer",
+      "description": "Identify technologies on websites.",
+      "category": "Productivity",
+      "url": "https://www.wappalyzer.com/",
+      "tags": ["tools", "technology detection", "research"],
+      "isOpenSource": true
+    },
+    {
+      "id": "148",
+      "name": "Lightshot",
+      "description": "Fast screenshot tool for Windows and Mac.",
+      "category": "Productivity",
+      "url": "https://app.prntscr.com/",
+      "tags": ["screenshot", "tools", "productivity"],
+      "isOpenSource": false
+    },
+    {
+      "id": "149",
+      "name": "ReadMe",
+      "description": "Beautiful documentation made easy.",
+      "category": "Productivity",
+      "url": "https://readme.com/",
+      "tags": ["documentation", "api", "tools"],
+      "isOpenSource": false
+    },
+    {
+      "id": "150",
+      "name": "Notion",
+      "description": "All-in-one workspace for notes, tasks, wikis, and databases.",
+      "category": "Productivity",
+      "url": "https://notion.so/",
+      "tags": ["notes", "productivity", "workspace"],
+      "isOpenSource": false
+    },
+    {
+      "id": "151",
+      "name": "Jest",
+      "description": "Delightful JavaScript testing framework with a focus on simplicity.",
+      "category": "Testing",
+      "url": "https://jestjs.io/",
+      "tags": ["javascript", "testing", "framework"],
+      "isOpenSource": true
+    },
+    {
+      "id": "152",
+      "name": "Mocha",
+      "description": "A feature-rich JavaScript test framework running on Node.js and in the browser.",
+      "category": "Testing",
+      "url": "https://mochajs.org/",
+      "tags": ["javascript", "testing", "framework"],
+      "isOpenSource": true
+    },
+    {
+      "id": "153",
+      "name": "Chai",
+      "description": "Assertion library for node and browser that can be used with any JavaScript testing framework.",
+      "category": "Testing",
+      "url": "https://www.chaijs.com/",
+      "tags": ["javascript", "assertion", "testing"],
+      "isOpenSource": true
+    },
+    {
+      "id": "154",
+      "name": "Lighthouse",
+      "description": "An open-source, automated tool for improving the quality of web pages.",
+      "category": "Productivity",
+      "url": "https://developers.google.com/web/tools/lighthouse",
+      "tags": ["performance", "auditing", "web"],
+      "isOpenSource": true
+    },
+    {
+      "id": "155",
+      "name": "Webpack",
+      "description": "A module bundler for JavaScript applications.",
+      "category": "Developer Tools",
+      "url": "https://webpack.js.org/",
+      "tags": ["bundler", "javascript", "build"],
+      "isOpenSource": true
+    },
+    {
+      "id": "156",
+      "name": "Parcel",
+      "description": "A web application bundler with no configuration required.",
+      "category": "Developer Tools",
+      "url": "https://parceljs.org/",
+      "tags": ["bundler", "javascript", "build"],
+      "isOpenSource": true
+    },
+    {
+      "id": "157",
+      "name": "Figma",
+      "description": "The collaborative interface design tool.",
+      "category": "Design",
+      "url": "https://www.figma.com/",
+      "tags": ["design", "collaboration", "UI/UX"],
+      "isOpenSource": false
+    },
+    {
+      "id": "158",
+      "name": "LottieFiles",
+      "description": "Free animations for your web or mobile apps.",
+      "category": "Design",
+      "url": "https://lottiefiles.com/",
+      "tags": ["animations", "design", "UI"],
+      "isOpenSource": false
+    },
+    {
+      "id": "159",
+      "name": "Canva",
+      "description": "Graphic design tool to create visuals for your web projects.",
+      "category": "Design",
+      "url": "https://www.canva.com/",
+      "tags": ["design", "graphics", "branding"],
+      "isOpenSource": false
+    },
+    {
+      "id": "160",
+      "name": "GIMP",
+      "description": "A free and open-source raster graphics editor used for tasks such as photo retouching and image composition.",
+      "category": "Design",
+      "url": "https://www.gimp.org/",
+      "tags": ["image editing", "design", "open-source"],
+      "isOpenSource": true
+    },
+    {
+      "id": "161",
+      "name": "Inkscape",
+      "description": "Free and open-source vector graphics editor.",
+      "category": "Design",
+      "url": "https://inkscape.org/",
+      "tags": ["vector", "design", "open-source"],
+      "isOpenSource": true
+    },
+    {
+      "id": "162",
+      "name": "Blender",
+      "description": "Free and open-source 3D creation suite.",
+      "category": "Design",
+      "url": "https://www.blender.org/",
+      "tags": ["3D", "design", "animation"],
+      "isOpenSource": true
+    },
+    {
+      "id": "163",
+      "name": "Trello",
+      "description": "A flexible project management tool using boards, lists, and cards.",
+      "category": "Productivity",
+      "url": "https://trello.com/",
+      "tags": ["project management", "collaboration", "task tracking"],
+      "isOpenSource": false
+    },
+    {
+      "id": "164",
+      "name": "Notion",
+      "description": "All-in-one workspace for notes, tasks, wikis, and databases.",
+      "category": "Productivity",
+      "url": "https://notion.so/",
+      "tags": ["productivity", "notetaking", "workspace"],
+      "isOpenSource": false
+    },
+    {
+      "id": "165",
+      "name": "Slack",
+      "description": "Team communication and collaboration platform.",
+      "category": "Productivity",
+      "url": "https://slack.com/",
+      "tags": ["communication", "collaboration", "teamwork"],
+      "isOpenSource": false
+    },
+    {
+      "id": "166",
+      "name": "Zoom",
+      "description": "Cloud video conferencing and collaboration tool.",
+      "category": "Productivity",
+      "url": "https://zoom.us/",
+      "tags": ["video conferencing", "collaboration", "meetings"],
+      "isOpenSource": false
+    },
+    {
+      "id": "167",
+      "name": "Google Meet",
+      "description": "Video meetings for teams, with Google’s quality and security.",
+      "category": "Productivity",
+      "url": "https://meet.google.com/",
+      "tags": ["video conferencing", "meetings", "collaboration"],
+      "isOpenSource": false
+    },
+    {
+      "id": "168",
+      "name": "Asana",
+      "description": "Work management tool to manage tasks, projects, and team workflow.",
+      "category": "Productivity",
+      "url": "https://asana.com/",
+      "tags": ["task management", "collaboration", "project management"],
+      "isOpenSource": false
+    },
+    {
+      "id": "169",
+      "name": "ClickUp",
+      "description": "The only productivity platform you'll ever need.",
+      "category": "Productivity",
+      "url": "https://clickup.com/",
+      "tags": ["task management", "project management", "productivity"],
+      "isOpenSource": false
+    },
+    {
+      "id": "170",
+      "name": "GitKraken",
+      "description": "Git GUI for Windows, Mac & Linux with a focus on collaboration.",
+      "category": "Productivity",
+      "url": "https://www.gitkraken.com/",
+      "tags": ["git", "gui", "version control"],
+      "isOpenSource": false
+    },
+    {
+      "id": "171",
+      "name": "SourceTree",
+      "description": "Free Git GUI for developers that makes working with repositories easy.",
+      "category": "Productivity",
+      "url": "https://www.sourcetreeapp.com/",
+      "tags": ["git", "gui", "version control"],
+      "isOpenSource": false
+    },
+    {
+      "id": "172",
+      "name": "GitHub Desktop",
+      "description": "Simple Git GUI for managing repositories.",
+      "category": "Productivity",
+      "url": "https://desktop.github.com/",
+      "tags": ["git", "gui", "version control"],
+      "isOpenSource": true
+    },
+    {
+      "id": "173",
+      "name": "GitPod",
+      "description": "Instant cloud development environments for GitHub projects.",
+      "category": "Productivity",
+      "url": "https://www.gitpod.io/",
+      "tags": ["development", "cloud", "git"],
+      "isOpenSource": false
+    },
+    {
+      "id": "174",
+      "name": "Replit",
+      "description": "Online code editor for all developers, with built-in collaboration.",
+      "category": "Developer Tools",
+      "url": "https://replit.com/",
+      "tags": ["coding", "editor", "collaboration"],
+      "isOpenSource": false
+    },
+    {
+      "id": "175",
+      "name": "CodeSandbox",
+      "description": "Online code editor that allows you to build web apps and websites from the browser.",
+      "category": "Developer Tools",
+      "url": "https://codesandbox.io/",
+      "tags": ["online editor", "web", "collaboration"],
+      "isOpenSource": false
+    },
+    {
+      "id": "176",
+      "name": "Kotlin",
+      "description": "A modern, statically-typed programming language that runs on JVM and is fully interoperable with Java.",
+      "category": "Languages",
+      "url": "https://kotlinlang.org/",
+      "tags": ["programming language", "JVM", "static typing"],
+      "isOpenSource": true
+    },
+    {
+      "id": "177",
+      "name": "Rust",
+      "description": "A systems programming language focused on safety, speed, and concurrency.",
+      "category": "Languages",
+      "url": "https://www.rust-lang.org/",
+      "tags": ["programming language", "systems", "concurrency"],
+      "isOpenSource": true
+    },
+    {
+      "id": "178",
+      "name": "Swift",
+      "description": "A powerful and intuitive programming language for macOS, iOS, watchOS, and tvOS.",
+      "category": "Languages",
+      "url": "https://swift.org/",
+      "tags": ["programming language", "iOS", "macOS"],
+      "isOpenSource": true
+    },
+    {
+      "id": "179",
+      "name": "Go",
+      "description": "An open-source programming language designed for building scalable and efficient software.",
+      "category": "Languages",
+      "url": "https://golang.org/",
+      "tags": ["programming language", "open-source", "scalable"],
+      "isOpenSource": true
+    },
+    {
+      "id": "180",
+      "name": "TypeScript",
+      "description": "A superset of JavaScript that adds optional static typing and other features.",
+      "category": "Languages",
+      "url": "https://www.typescriptlang.org/",
+      "tags": ["programming language", "javascript", "static typing"],
+      "isOpenSource": true
+    },
+    {
+      "id": "181",
+      "name": "Python",
+      "description": "A widely used high-level programming language for general-purpose programming.",
+      "category": "Languages",
+      "url": "https://www.python.org/",
+      "tags": ["programming language", "general-purpose", "open-source"],
+      "isOpenSource": true
+    },
+    {
+      "id": "182",
+      "name": "Ruby",
+      "description": "A dynamic, open-source programming language with a focus on simplicity and productivity.",
+      "category": "Languages",
+      "url": "https://www.ruby-lang.org/",
+      "tags": ["programming language", "open-source", "dynamic"],
+      "isOpenSource": true
+    },
+    {
+      "id": "183",
+      "name": "C++",
+      "description": "A powerful, high-performance language for system software, game development, and large-scale applications.",
+      "category": "Languages",
+      "url": "https://isocpp.org/",
+      "tags": ["programming language", "systems", "high-performance"],
+      "isOpenSource": true
+    },
+    {
+      "id": "184",
+      "name": "JavaScript",
+      "description": "A lightweight, interpreted programming language for building web applications.",
+      "category": "Languages",
+      "url": "https://www.javascript.com/",
+      "tags": ["programming language", "web", "scripting"],
+      "isOpenSource": true
+    },
+    {
+      "id": "185",
+      "name": "Elixir",
+      "description": "A functional programming language designed for creating scalable and maintainable applications.",
+      "category": "Languages",
+      "url": "https://elixir-lang.org/",
+      "tags": ["programming language", "functional", "scalable"],
+      "isOpenSource": true
+    },
+    {
+      "id": "186",
+      "name": "Laravel",
+      "description": "A PHP framework for building elegant web applications with expressive, simple syntax.",
+      "category": "Web Frameworks",
+      "url": "https://laravel.com/",
+      "tags": ["PHP", "framework", "web"],
+      "isOpenSource": true
+    },
+    {
+      "id": "187",
+      "name": "Django",
+      "description": "A high-level Python framework for rapid web development with clean, pragmatic design.",
+      "category": "Web Frameworks",
+      "url": "https://www.djangoproject.com/",
+      "tags": ["Python", "framework", "web"],
+      "isOpenSource": true
+    },
+    {
+      "id": "188",
+      "name": "Flask",
+      "description": "A micro web framework written in Python.",
+      "category": "Web Frameworks",
+      "url": "https://flask.palletsprojects.com/",
+      "tags": ["Python", "framework", "web"],
+      "isOpenSource": true
+    },
+    {
+      "id": "189",
+      "name": "Node.js",
+      "description": "A JavaScript runtime built on Chrome's V8 JavaScript engine, designed for building fast, scalable network applications.",
+      "category": "Web Frameworks",
+      "url": "https://nodejs.org/",
+      "tags": ["JavaScript", "runtime", "web"],
+      "isOpenSource": true
+    },
+    {
+      "id": "190",
+      "name": "Ruby on Rails",
+      "description": "A full-stack web application framework written in Ruby that follows the convention over configuration philosophy.",
+      "category": "Web Frameworks",
+      "url": "https://rubyonrails.org/",
+      "tags": ["Ruby", "framework", "web"],
+      "isOpenSource": true
+    },
+    {
+      "id": "191",
+      "name": "Express.js",
+      "description": "A minimal and flexible Node.js web application framework that provides a robust set of features.",
+      "category": "Web Frameworks",
+      "url": "https://expressjs.com/",
+      "tags": ["JavaScript", "Node.js", "framework"],
+      "isOpenSource": true
+    },
+    {
+      "id": "192",
+      "name": "Vue.js",
+      "description": "A progressive JavaScript framework for building user interfaces.",
+      "category": "Web Frameworks",
+      "url": "https://vuejs.org/",
+      "tags": ["JavaScript", "framework", "UI"],
+      "isOpenSource": true
+    },
+    {
+      "id": "193",
+      "name": "React",
+      "description": "A JavaScript library for building user interfaces, developed by Facebook.",
+      "category": "Web Frameworks",
+      "url": "https://reactjs.org/",
+      "tags": ["JavaScript", "library", "UI"],
+      "isOpenSource": true
+    },
+    {
+      "id": "194",
+      "name": "Angular",
+      "description": "A platform for building mobile and desktop web applications using TypeScript.",
+      "category": "Web Frameworks",
+      "url": "https://angular.io/",
+      "tags": ["TypeScript", "framework", "web"],
+      "isOpenSource": true
+    },
+    {
+      "id": "195",
+      "name": "Svelte",
+      "description": "A JavaScript framework for building fast, reactive UIs.",
+      "category": "Web Frameworks",
+      "url": "https://svelte.dev/",
+      "tags": ["JavaScript", "framework", "UI"],
+      "isOpenSource": true
+    },
+    {
+      "id": "196",
+      "name": "Tailwind CSS",
+      "description": "A utility-first CSS framework for rapidly building custom designs.",
+      "category": "CSS Frameworks",
+      "url": "https://tailwindcss.com/",
+      "tags": ["CSS", "framework", "UI"],
+      "isOpenSource": true
+    },
+    {
+      "id": "197",
+      "name": "Bootstrap",
+      "description": "A popular open-source CSS framework for building responsive and mobile-first websites.",
+      "category": "CSS Frameworks",
+      "url": "https://getbootstrap.com/",
+      "tags": ["CSS", "framework", "UI"],
+      "isOpenSource": true
+    },
+    {
+      "id": "198",
+      "name": "Bulma",
+      "description": "A modern CSS framework based on Flexbox for building responsive web interfaces.",
+      "category": "CSS Frameworks",
+      "url": "https://bulma.io/",
+      "tags": ["CSS", "framework", "UI"],
+      "isOpenSource": true
+    },
+    {
+      "id": "199",
+      "name": "Foundation",
+      "description": "A responsive front-end framework for building websites and apps.",
+      "category": "CSS Frameworks",
+      "url": "https://get.foundation/",
+      "tags": ["CSS", "framework", "UI"],
+      "isOpenSource": true
+    },
+    {
+      "id": "200",
+      "name": "Materialize",
+      "description": "A modern responsive front-end framework based on Material Design.",
+      "category": "CSS Frameworks",
+      "url": "https://materializecss.com/",
+      "tags": ["CSS", "framework", "UI"],
+      "isOpenSource": true
+    },
+    {
+      "id": "201",
+      "name": "Git",
+      "description": "A distributed version control system for tracking changes in source code during software development.",
+      "category": "Developer Tools",
+      "url": "https://git-scm.com/",
+      "tags": ["version control", "git", "tool"],
+      "isOpenSource": true
+    },
+    {
+      "id": "202",
+      "name": "GitHub",
+      "description": "A platform for version control and collaboration, allowing multiple people to work on projects at once.",
+      "category": "Developer Tools",
+      "url": "https://github.com/",
+      "tags": ["version control", "collaboration", "platform"],
+      "isOpenSource": false
+    },
+    {
+      "id": "203",
+      "name": "Bitbucket",
+      "description": "A Git-based source code repository hosting service for teams to plan, collaborate, and code.",
+      "category": "Developer Tools",
+      "url": "https://bitbucket.org/",
+      "tags": ["version control", "repository", "Git"],
+      "isOpenSource": false
+    },
+    {
+      "id": "204",
+      "name": "SourceTree",
+      "description": "A free Git and Mercurial desktop client for developers.",
+      "category": "Developer Tools",
+      "url": "https://www.sourcetreeapp.com/",
+      "tags": ["Git", "version control", "desktop client"],
+      "isOpenSource": false
+    },
+    {
+      "id": "205",
+      "name": "Trello",
+      "description": "A collaboration tool that organizes your projects into boards, helping you to stay organized.",
+      "category": "Productivity",
+      "url": "https://trello.com/",
+      "tags": ["project management", "productivity", "organization"],
+      "isOpenSource": false
+    },
+    {
+      "id": "206",
+      "name": "Slack",
+      "description": "A messaging app for teams that makes it easy to communicate, collaborate, and organize work.",
+      "category": "Productivity",
+      "url": "https://slack.com/",
+      "tags": ["team communication", "messaging", "collaboration"],
+      "isOpenSource": false
+    },
+    {
+      "id": "207",
+      "name": "Discord",
+      "description": "A free voice, video, and text chat platform for gaming communities and teams.",
+      "category": "Productivity",
+      "url": "https://discord.com/",
+      "tags": ["communication", "chat", "collaboration"],
+      "isOpenSource": false
+    },
+    {
+      "id": "208",
+      "name": "Notion",
+      "description": "An all-in-one workspace for note-taking, project management, and collaboration.",
+      "category": "Productivity",
+      "url": "https://www.notion.so/",
+      "tags": ["note-taking", "productivity", "collaboration"],
+      "isOpenSource": false
+    },
+    {
+      "id": "209",
+      "name": "Evernote",
+      "description": "A note-taking app for organizing notes, tasks, and ideas across multiple devices.",
+      "category": "Productivity",
+      "url": "https://www.evernote.com/",
+      "tags": ["note-taking", "organization", "tasks"],
+      "isOpenSource": false
+    },
+    {
+      "id": "210",
+      "name": "Google Keep",
+      "description": "A simple note-taking and task management app by Google.",
+      "category": "Productivity",
+      "url": "https://keep.google.com/",
+      "tags": ["note-taking", "tasks", "Google"],
+      "isOpenSource": false
+    },
+    {
+      "id": "211",
+      "name": "Obsidian",
+      "description": "A knowledge base that works on local Markdown files.",
+      "category": "Productivity",
+      "url": "https://obsidian.md/",
+      "tags": ["note-taking", "Markdown", "local"],
+      "isOpenSource": true
+    },
+    {
+      "id": "212",
+      "name": "Jira",
+      "description": "A project management tool used for bug tracking, issue tracking, and agile project management.",
+      "category": "Productivity",
+      "url": "https://www.atlassian.com/software/jira",
+      "tags": ["project management", "tracking", "Agile"],
+      "isOpenSource": false
+    },
+    {
+      "id": "213",
+      "name": "GitLab",
+      "description": "A web-based DevOps lifecycle tool for code collaboration, continuous integration, and deployment.",
+      "category": "Developer Tools",
+      "url": "https://about.gitlab.com/",
+      "tags": ["DevOps", "Git", "CI/CD"],
+      "isOpenSource": true
+    },
+    {
+      "id": "214",
+      "name": "CircleCI",
+      "description": "A continuous integration and continuous delivery platform to automate software builds, tests, and deployments.",
+      "category": "Developer Tools",
+      "url": "https://circleci.com/",
+      "tags": ["CI/CD", "DevOps", "automation"],
+      "isOpenSource": false
+    },
+    {
+      "id": "215",
+      "name": "Jenkins",
+      "description": "An open-source automation server to automate software builds, testing, and deployment.",
+      "category": "Developer Tools",
+      "url": "https://www.jenkins.io/",
+      "tags": ["automation", "CI/CD", "DevOps"],
+      "isOpenSource": true
+    },
+    {
+      "id": "216",
+      "name": "Travis CI",
+      "description": "A continuous integration service used to build and test software projects hosted on GitHub.",
+      "category": "Developer Tools",
+      "url": "https://travis-ci.org/",
+      "tags": ["CI/CD", "GitHub", "automation"],
+      "isOpenSource": false
+    },
+    {
+      "id": "217",
+      "name": "Vercel",
+      "description": "A platform for deploying frontend apps and static sites with serverless functions.",
+      "category": "Hosting",
+      "url": "https://vercel.com/",
+      "tags": ["hosting", "serverless", "frontend"],
+      "isOpenSource": false
+    },
+    {
+      "id": "218",
+      "name": "Netlify",
+      "description": "A platform for deploying static websites and modern web apps with continuous deployment.",
+      "category": "Hosting",
+      "url": "https://www.netlify.com/",
+      "tags": ["hosting", "deployment", "static websites"],
+      "isOpenSource": false
+    },
+    {
+      "id": "219",
+      "name": "Heroku",
+      "description": "A cloud platform that lets developers build, run, and operate applications entirely in the cloud.",
+      "category": "Hosting",
+      "url": "https://www.heroku.com/",
+      "tags": ["cloud", "hosting", "platform"],
+      "isOpenSource": false
+    },
+    {
+      "id": "220",
+      "name": "Firebase",
+      "description": "A platform for building mobile and web applications with real-time databases, authentication, and hosting.",
+      "category": "Hosting",
+      "url": "https://firebase.google.com/",
+      "tags": ["mobile", "web", "real-time"],
+      "isOpenSource": false
+    },
+    {
+      "id": "221",
+      "name": "Surge",
+      "description": "A simple, single-command web publishing platform for Front-End Developers.",
+      "category": "Hosting",
+      "url": "https://surge.sh/",
+      "tags": ["web", "hosting", "frontend"],
+      "isOpenSource": false
+    },
+    {
+      "id": "222",
+      "name": "Cloudflare Pages",
+      "description": "A platform to build and deploy static websites directly from GitHub repositories.",
+      "category": "Hosting",
+      "url": "https://pages.cloudflare.com/",
+      "tags": ["hosting", "static sites", "GitHub"],
+      "isOpenSource": false
+    },
+    {
+      "id": "223",
+      "name": "Render",
+      "description": "A unified platform to build and deploy all your apps, websites, and databases.",
+      "category": "Hosting",
+      "url": "https://render.com/",
+      "tags": ["hosting", "cloud", "web apps"],
+      "isOpenSource": false
+    },
+    {
+      "id": "224",
+      "name": "GitHub Pages",
+      "description": "A free hosting service by GitHub to host your static sites directly from your GitHub repository.",
+      "category": "Hosting",
+      "url": "https://pages.github.com/",
+      "tags": ["static site", "GitHub", "free hosting"],
+      "isOpenSource": false
+    },
+    {
+      "id": "225",
+      "name": "Figma",
+      "description": "A powerful, browser-based design tool for collaborative interface design.",
+      "category": "Design Tools",
+      "url": "https://www.figma.com/",
+      "tags": ["design", "collaboration", "UI"],
+      "isOpenSource": false
+    },
+    {
+      "id": "226",
+      "name": "InVision",
+      "description": "A collaborative design platform for creating interactive prototypes and collaborating on design projects.",
+      "category": "Design Tools",
+      "url": "https://www.invisionapp.com/",
+      "tags": ["prototyping", "UI", "design"],
+      "isOpenSource": false
+    },
+    {
+      "id": "227",
+      "name": "Adobe XD",
+      "description": "A design tool for web and mobile apps with built-in collaboration features.",
+      "category": "Design Tools",
+      "url": "https://www.adobe.com/products/xd.html",
+      "tags": ["UI design", "prototyping", "collaboration"],
+      "isOpenSource": false
+    },
+    {
+      "id": "228",
+      "name": "Sketch",
+      "description": "A vector-based UI design tool for macOS used for creating websites, mobile apps, and digital experiences.",
+      "category": "Design Tools",
+      "url": "https://www.sketch.com/",
+      "tags": ["UI", "macOS", "design"],
+      "isOpenSource": false
+    },
+    {
+      "id": "229",
+      "name": "Canva",
+      "description": "A graphic design platform to create beautiful designs for social media, presentations, and more.",
+      "category": "Design Tools",
+      "url": "https://www.canva.com/",
+      "tags": ["design", "graphics", "web"],
+      "isOpenSource": false
+    },
+    {
+      "id": "230",
+      "name": "Gravit Designer",
+      "description": "A free full-featured vector design app for creating illustrations, UI, and more.",
+      "category": "Design Tools",
+      "url": "https://www.designer.io/en/",
+      "tags": ["vector", "design", "UI"],
+      "isOpenSource": false
+    },
+    {
+      "id": "231",
+      "name": "SVGOMG",
+      "description": "An SVG optimization tool to reduce the size of SVG files.",
+      "category": "Design Tools",
+      "url": "https://jakearchibald.github.io/svgomg/",
+      "tags": ["SVG", "optimization", "tool"],
+      "isOpenSource": false
+    },
+    {
+      "id": "232",
+      "name": "LottieFiles",
+      "description": "A platform to create, share, and discover animation files for your projects.",
+      "category": "Design Tools",
+      "url": "https://lottiefiles.com/",
+      "tags": ["animation", "UI", "SVG"],
+      "isOpenSource": false
+    },
+    {
+      "id": "233",
+      "name": "Webflow",
+      "description": "A no-code tool to design, build, and launch responsive websites visually.",
+      "category": "Design Tools",
+      "url": "https://webflow.com/",
+      "tags": ["design", "website", "no-code"],
+      "isOpenSource": false
+    },
+    {
+      "id": "234",
+      "name": "Zeplin",
+      "description": "A tool for designers to hand off specs, assets, and guidelines to developers.",
+      "category": "Design Tools",
+      "url": "https://zeplin.io/",
+      "tags": ["design", "handoff", "collaboration"],
+      "isOpenSource": false
+    },
+    {
+      "id": "235",
+      "name": "Dribbble",
+      "description": "A community of designers showcasing their work and finding inspiration.",
+      "category": "Design Tools",
+      "url": "https://dribbble.com/",
+      "tags": ["design", "community", "inspiration"],
+      "isOpenSource": false
+    },
+    {
+      "id": "236",
+      "name": "Unsplash",
+      "description": "A platform for high-quality, free stock photos contributed by photographers worldwide.",
+      "category": "Design Tools",
+      "url": "https://unsplash.com/",
+      "tags": ["photos", "stock", "design"],
+      "isOpenSource": false
+    },
+    {
+      "id": "237",
+      "name": "Pexels",
+      "description": "A free stock photo and video platform offering high-quality images and videos.",
+      "category": "Design Tools",
+      "url": "https://www.pexels.com/",
+      "tags": ["photos", "stock", "video"],
+      "isOpenSource": false
+    },
+    {
+      "id": "238",
+      "name": "Pixabay",
+      "description": "A platform for high-quality, free stock photos, videos, and music.",
+      "category": "Design Tools",
+      "url": "https://pixabay.com/",
+      "tags": ["photos", "stock", "videos"],
+      "isOpenSource": false
+    },
+    {
+      "id": "239",
+      "name": "Freepik",
+      "description": "A graphic resource website offering free vectors, stock photos, and PSD files.",
+      "category": "Design Tools",
+      "url": "https://www.freepik.com/",
+      "tags": ["vectors", "photos", "stock"],
+      "isOpenSource": false
+    },
+    {
+      "id": "240",
+      "name": "FontAwesome",
+      "description": "A popular icon toolkit to include scalable vector icons in your web projects.",
+      "category": "Design Tools",
+      "url": "https://fontawesome.com/",
+      "tags": ["icons", "design", "web"],
+      "isOpenSource": false
+    },
+    {
+      "id": "241",
+      "name": "Iconmonstr",
+      "description": "A free, high-quality, and easy-to-use icon library.",
+      "category": "Design Tools",
+      "url": "https://iconmonstr.com/",
+      "tags": ["icons", "design", "library"],
+      "isOpenSource": false
+    },
+    {
+      "id": "242",
+      "name": "Flaticon",
+      "description": "A platform offering free vector icons for your projects.",
+      "category": "Design Tools",
+      "url": "https://www.flaticon.com/",
+      "tags": ["icons", "design", "vectors"],
+      "isOpenSource": false
+    },
+    {
+      "id": "243",
+      "name": "Material Icons",
+      "description": "A free collection of Google’s Material Design icons.",
+      "category": "Design Tools",
+      "url": "https://material.io/resources/icons/",
+      "tags": ["icons", "material design", "Google"],
+      "isOpenSource": false
+    },
+    {
+      "id": "244",
+      "name": "CSS Grid Generator",
+      "description": "A simple tool to help you create a responsive CSS Grid layout.",
+      "category": "Developer Tools",
+      "url": "https://cssgrid-generator.netlify.app/",
+      "tags": ["CSS", "layout", "grid"],
+      "isOpenSource": false
+    },
+    {
+      "id": "245",
+      "name": "CSS3 Generator",
+      "description": "A free CSS generator for creating common CSS styles such as box shadow, gradients, and more.",
+      "category": "Developer Tools",
+      "url": "https://css3generator.com/",
+      "tags": ["CSS", "generator", "design"],
+      "isOpenSource": false
+    },
+    {
+      "id": "246",
+      "name": "Postman",
+      "description": "An API testing platform to build, test, and document APIs.",
+      "category": "Developer Tools",
+      "url": "https://www.postman.com/",
+      "tags": ["API", "testing", "tools"],
+      "isOpenSource": false
+    },
+    {
+      "id": "247",
+      "name": "Insomnia",
+      "description": "A powerful open-source REST client to design, test, and debug APIs.",
+      "category": "Developer Tools",
+      "url": "https://insomnia.rest/",
+      "tags": ["API", "testing", "tools"],
+      "isOpenSource": true
+    },
+    {
+      "id": "248",
+      "name": "Swagger UI",
+      "description": "A tool for generating interactive API documentation from Swagger-compliant REST APIs.",
+      "category": "Developer Tools",
+      "url": "https://swagger.io/tools/swagger-ui/",
+      "tags": ["API", "documentation", "tools"],
+      "isOpenSource": true
+    },
+    {
+      "id": "249",
+      "name": "JSONPlaceholder",
+      "description": "A free fake online REST API for testing and prototyping.",
+      "category": "Developer Tools",
+      "url": "https://jsonplaceholder.typicode.com/",
+      "tags": ["API", "testing", "REST"],
+      "isOpenSource": false
+    },
+    {
+      "id": "250",
+      "name": "Reqres",
+      "description": "A free API to test and generate mock data.",
+      "category": "Developer Tools",
+      "url": "https://reqres.in/",
+      "tags": ["API", "testing", "mock data"],
+      "isOpenSource": false
+    },
+    {
+      "id": "251",
+      "name": "Beeceptor",
+      "description": "A free tool to create custom mock APIs for testing and debugging.",
+      "category": "Developer Tools",
+      "url": "https://beeceptor.com/",
+      "tags": ["API", "mock", "testing"],
+      "isOpenSource": false
+    },
+    {
+      "id": "252",
+      "name": "Mocki",
+      "description": "Mock your REST APIs instantly with no setup required.",
+      "category": "Developer Tools",
+      "url": "https://mocki.io/",
+      "tags": ["API", "mock", "testing"],
+      "isOpenSource": false
+    },
+    {
+      "id": "253",
+      "name": "Faker.js",
+      "description": "A JavaScript library for generating fake data such as names, addresses, and more.",
+      "category": "Developer Tools",
+      "url": "https://github.com/Marak/Faker.js/",
+      "tags": ["JavaScript", "fake data", "library"],
+      "isOpenSource": true
+    },
+    {
+      "id": "254",
+      "name": "RandomUser.me",
+      "description": "A free API to generate random user data for testing and prototyping.",
+      "category": "Developer Tools",
+      "url": "https://randomuser.me/",
+      "tags": ["API", "mock data", "random"],
+      "isOpenSource": false
+    },
+    {
+      "id": "255",
+      "name": "Lorem Ipsum",
+      "description": "A free generator for placeholder text commonly used in design and development.",
+      "category": "Developer Tools",
+      "url": "https://www.lipsum.com/",
+      "tags": ["placeholder text", "lorem ipsum", "tool"],
+      "isOpenSource": false
+    },
+    {
+      "id": "256",
+      "name": "Lorem Picsum",
+      "description": "A free service to generate random placeholder images for design and development.",
+      "category": "Developer Tools",
+      "url": "https://picsum.photos/",
+      "tags": ["images", "placeholder", "tool"],
+      "isOpenSource": false
+    },
+    {
+      "id": "257",
+      "name": "PlaceIMG",
+      "description": "A free service to generate random placeholder images with custom categories and sizes.",
+      "category": "Developer Tools",
+      "url": "https://placeimg.com/",
+      "tags": ["images", "placeholder", "tool"],
+      "isOpenSource": false
+    },
+    {
+      "id": "258",
+      "name": "QuickMocker",
+      "description": "A free tool to mock and test REST APIs without needing to write any code.",
+      "category": "Developer Tools",
+      "url": "https://quickmocker.com/",
+      "tags": ["API", "mock", "testing"],
+      "isOpenSource": false
+    },
+    {
+      "id": "259",
+      "name": "API Mocking",
+      "description": "Create and manage mock REST APIs with easy configuration and support for multiple formats.",
+      "category": "Developer Tools",
+      "url": "https://www.apimocking.com/",
+      "tags": ["API", "mock", "testing"],
+      "isOpenSource": false
+    },
+    {
+      "id": "260",
+      "name": "Glitch",
+      "description": "An easy-to-use platform to build and deploy web apps and websites with free hosting.",
+      "category": "Developer Tools",
+      "url": "https://glitch.com/",
+      "tags": ["web apps", "hosting", "collaboration"],
+      "isOpenSource": false
+    },
+    {
+      "id": "261",
+      "name": "Zeplin",
+      "description": "A design collaboration tool to bridge the gap between designers and developers.",
+      "category": "Design Tools",
+      "url": "https://zeplin.io/",
+      "tags": ["design", "collaboration", "tool"],
+      "isOpenSource": false
+    },
+    {
+      "id": "262",
+      "name": "Webflow",
+      "description": "A powerful web design tool, CMS, and hosting platform.",
+      "category": "Design Tools",
+      "url": "https://webflow.com/",
+      "tags": ["design", "web design", "CMS"],
+      "isOpenSource": false
+    },
+    {
+      "id": "263",
+      "name": "Balsamiq",
+      "description": "A rapid wireframing tool that helps you work faster and smarter.",
+      "category": "Design Tools",
+      "url": "https://balsamiq.com/",
+      "tags": ["design", "wireframing", "tool"],
+      "isOpenSource": false
+    },
+    {
+      "id": "264",
+      "name": "Framer",
+      "description": "A collaborative design tool to create interactive prototypes.",
+      "category": "Design Tools",
+      "url": "https://www.framer.com/",
+      "tags": ["design", "prototypes", "collaboration"],
+      "isOpenSource": false
+    },
+    {
+      "id": "265",
+      "name": "Vectr",
+      "description": "A free vector graphics editor that’s easy to use and powerful.",
+      "category": "Design Tools",
+      "url": "https://vectr.com/",
+      "tags": ["design", "vector graphics", "tool"],
+      "isOpenSource": false
+    },
+    {
+      "id": "266",
+      "name": "Pexels",
+      "description": "A free stock photo and video platform.",
+      "category": "Design Resources",
+      "url": "https://www.pexels.com/",
+      "tags": ["stock photos", "stock videos", "free resources"],
+      "isOpenSource": false
+    },
+    {
+      "id": "267",
+      "name": "Unsplash",
+      "description": "High-quality, free stock images and videos.",
+      "category": "Design Resources",
+      "url": "https://unsplash.com/",
+      "tags": ["stock photos", "images", "free resources"],
+      "isOpenSource": false
+    },
+    {
+      "id": "268",
+      "name": "Shutterstock",
+      "description": "A platform offering high-quality images, videos, and music.",
+      "category": "Design Resources",
+      "url": "https://www.shutterstock.com/",
+      "tags": ["stock images", "videos", "music"],
+      "isOpenSource": false
+    },
+    {
+      "id": "269",
+      "name": "Canva",
+      "description": "A design tool with templates for creating social media posts, presentations, and more.",
+      "category": "Design Tools",
+      "url": "https://www.canva.com/",
+      "tags": ["design", "templates", "tool"],
+      "isOpenSource": false
+    },
+    {
+      "id": "270",
+      "name": "GIMP",
+      "description": "A free and open-source raster graphics editor used for tasks such as photo retouching and image composition.",
+      "category": "Design Tools",
+      "url": "https://www.gimp.org/",
+      "tags": ["design", "image editing", "open-source"],
+      "isOpenSource": true
+    },
+    {
+      "id": "271",
+      "name": "Inkscape",
+      "description": "A free and open-source vector graphics editor used for creating and editing vector images.",
+      "category": "Design Tools",
+      "url": "https://inkscape.org/",
+      "tags": ["design", "vector graphics", "open-source"],
+      "isOpenSource": true
+    },
+    {
+      "id": "272",
+      "name": "Blender",
+      "description": "An open-source 3D creation suite for modeling, sculpting, and animating.",
+      "category": "Design Tools",
+      "url": "https://www.blender.org/",
+      "tags": ["3D", "animation", "modeling", "open-source"],
+      "isOpenSource": true
+    },
+    {
+      "id": "273",
+      "name": "Figma",
+      "description": "A web-based UI/UX design tool for collaboration and interface design.",
+      "category": "Design Tools",
+      "url": "https://www.figma.com/",
+      "tags": ["design", "UI/UX", "collaboration"],
+      "isOpenSource": false
+    },
+    {
+      "id": "274",
+      "name": "Sketch",
+      "description": "A vector graphics editor for macOS used for UI and UX design.",
+      "category": "Design Tools",
+      "url": "https://www.sketch.com/",
+      "tags": ["design", "UI/UX", "macOS"],
+      "isOpenSource": false
+    },
+    {
+      "id": "275",
+      "name": "Framer Motion",
+      "description": "A production-ready animation library for React.",
+      "category": "Developer Tools",
+      "url": "https://www.framer.com/motion/",
+      "tags": ["react", "animation", "UI"],
+      "isOpenSource": true
+    },
+    {
+      "id": "276",
+      "name": "Three.js",
+      "description": "A JavaScript 3D library that makes WebGL easier to use.",
+      "category": "Developer Tools",
+      "url": "https://threejs.org/",
+      "tags": ["3D", "JavaScript", "WebGL"],
+      "isOpenSource": true
+    },
+    {
+      "id": "277",
+      "name": "PixiJS",
+      "description": "A 2D rendering engine for creating interactive graphics.",
+      "category": "Developer Tools",
+      "url": "https://pixijs.com/",
+      "tags": ["2D", "graphics", "JavaScript"],
+      "isOpenSource": true
+    },
+    {
+      "id": "278",
+      "name": "Matter.js",
+      "description": "A 2D physics engine for the web.",
+      "category": "Developer Tools",
+      "url": "https://brm.io/matter-js/",
+      "tags": ["2D", "physics", "JavaScript"],
+      "isOpenSource": true
+    },
+    {
+      "id": "279",
+      "name": "Babel",
+      "description": "A JavaScript compiler that allows you to use the latest JavaScript features.",
+      "category": "Developer Tools",
+      "url": "https://babeljs.io/",
+      "tags": ["JavaScript", "compiler", "tool"],
+      "isOpenSource": true
+    },
+    {
+      "id": "280",
+      "name": "Webpack",
+      "description": "A module bundler for JavaScript applications.",
+      "category": "Developer Tools",
+      "url": "https://webpack.js.org/",
+      "tags": ["JavaScript", "bundler", "tool"],
+      "isOpenSource": true
+    },
+    {
+      "id": "281",
+      "name": "Parcel",
+      "description": "A zero-config web application bundler.",
+      "category": "Developer Tools",
+      "url": "https://parceljs.org/",
+      "tags": ["bundler", "JavaScript", "tool"],
+      "isOpenSource": true
+    },
+    {
+      "id": "282",
+      "name": "Vite",
+      "description": "A modern build tool that provides fast development experience.",
+      "category": "Developer Tools",
+      "url": "https://vitejs.dev/",
+      "tags": ["build", "JavaScript", "tool"],
+      "isOpenSource": true
+    },
+    {
+      "id": "283",
+      "name": "Prettier",
+      "description": "An opinionated code formatter.",
+      "category": "Developer Tools",
+      "url": "https://prettier.io/",
+      "tags": ["formatting", "JavaScript", "tool"],
+      "isOpenSource": true
+    },
+    {
+      "id": "284",
+      "name": "ESLint",
+      "description": "A tool for identifying and fixing JavaScript code quality and style issues.",
+      "category": "Developer Tools",
+      "url": "https://eslint.org/",
+      "tags": ["JavaScript", "linter", "tool"],
+      "isOpenSource": true
+    },
+    {
+      "id": "285",
+      "name": "Tailwind CSS",
+      "description": "A utility-first CSS framework for rapid UI development.",
+      "category": "CSS Frameworks",
+      "url": "https://tailwindcss.com/",
+      "tags": ["CSS", "framework", "utility-first"],
+      "isOpenSource": true
+    },
+    {
+      "id": "286",
+      "name": "Bootstrap",
+      "description": "A front-end framework for developing responsive and mobile-first websites.",
+      "category": "CSS Frameworks",
+      "url": "https://getbootstrap.com/",
+      "tags": ["CSS", "framework", "responsive"],
+      "isOpenSource": true
+    },
+    {
+      "id": "287",
+      "name": "Foundation",
+      "description": "A responsive front-end framework for building websites and apps.",
+      "category": "CSS Frameworks",
+      "url": "https://get.foundation/",
+      "tags": ["CSS", "framework", "responsive"],
+      "isOpenSource": true
+    },
+    {
+      "id": "288",
+      "name": "Bulma",
+      "description": "A modern CSS framework based on Flexbox.",
+      "category": "CSS Frameworks",
+      "url": "https://bulma.io/",
+      "tags": ["CSS", "framework", "Flexbox"],
+      "isOpenSource": true
+    },
+    {
+      "id": "289",
+      "name": "Sass",
+      "description": "A CSS preprocessor that adds power and elegance to your CSS.",
+      "category": "CSS Tools",
+      "url": "https://sass-lang.com/",
+      "tags": ["CSS", "preprocessor", "tool"],
+      "isOpenSource": true
+    },
+    {
+      "id": "290",
+      "name": "Less",
+      "description": "A backward-compatible CSS extension language.",
+      "category": "CSS Tools",
+      "url": "http://lesscss.org/",
+      "tags": ["CSS", "preprocessor", "tool"],
+      "isOpenSource": true
+    },
+    {
+      "id": "291",
+      "name": "PostCSS",
+      "description": "A tool for transforming CSS with JavaScript plugins.",
+      "category": "CSS Tools",
+      "url": "https://postcss.org/",
+      "tags": ["CSS", "postprocessor", "tool"],
+      "isOpenSource": true
+    },
+    {
+      "id": "292",
+      "name": "CSS Tricks",
+      "description": "A web design and development blog with CSS tips and tricks.",
+      "category": "Learning Resources",
+      "url": "https://css-tricks.com/",
+      "tags": ["CSS", "learning", "tutorials"],
+      "isOpenSource": false
+    },
+    {
+      "id": "293",
+      "name": "MDN Web Docs",
+      "description": "A comprehensive resource for web development documentation.",
+      "category": "Learning Resources",
+      "url": "https://developer.mozilla.org/",
+      "tags": ["web development", "documentation", "learning"],
+      "isOpenSource": false
+    },
+    {
+      "id": "294",
+      "name": "freeCodeCamp",
+      "description": "A nonprofit organization that provides free coding education through projects and challenges.",
+      "category": "Learning Resources",
+      "url": "https://www.freecodecamp.org/",
+      "tags": ["learning", "coding", "projects"],
+      "isOpenSource": true
+    },
+    {
+      "id": "295",
+      "name": "Codecademy",
+      "description": "An interactive learning platform offering coding courses in different programming languages.",
+      "category": "Learning Resources",
+      "url": "https://www.codecademy.com/",
+      "tags": ["learning", "coding", "interactive"],
+      "isOpenSource": false
+    },
+    {
+      "id": "296",
+      "name": "LeetCode",
+      "description": "A platform for practicing coding and preparing for technical interviews.",
+      "category": "Learning Resources",
+      "url": "https://leetcode.com/",
+      "tags": ["coding", "interviews", "learning"],
+      "isOpenSource": false
+    },
+    {
+      "id": "297",
+      "name": "HackerRank",
+      "description": "A platform for competitive coding and interview preparation.",
+      "category": "Learning Resources",
+      "url": "https://www.hackerrank.com/",
+      "tags": ["coding", "interviews", "learning"],
+      "isOpenSource": false
+    },
+    {
+      "id": "298",
+      "name": "Exercism",
+      "description": "A platform for mentoring and learning programming through coding exercises.",
+      "category": "Learning Resources",
+      "url": "https://exercism.io/",
+      "tags": ["coding", "learning", "mentorship"],
+      "isOpenSource": true
+    },
+    {
+      "id": "299",
+      "name": "Sololearn",
+      "description": "A platform offering free coding courses and a community for learners.",
+      "category": "Learning Resources",
+      "url": "https://www.sololearn.com/",
+      "tags": ["coding", "community", "learning"],
+      "isOpenSource": false
+    },
+    {
+      "id": "300",
+      "name": "The Odin Project",
+      "description": "An open-source full-stack curriculum for web development.",
+      "category": "Learning Resources",
+      "url": "https://www.theodinproject.com/",
+      "tags": ["learning", "web development", "open-source"],
       "isOpenSource": true
     }
   ]
