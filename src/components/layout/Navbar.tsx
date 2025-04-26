@@ -37,7 +37,11 @@ const Navbar: React.FC = () => {
       <div className="container mx-auto px-4 py-4">
         <div className="flex justify-between items-center">
           <Link to="/" className="flex items-center space-x-2 text-white">
-            <Layers className="h-6 w-6 text-purple-500" />
+            <img
+              src="/logo.png"
+              alt="Endbyte Logo"
+              className="h-8 w-8 rounded-full"
+            />
             <span className="font-bold text-lg">Endbyte</span>
           </Link>
 
