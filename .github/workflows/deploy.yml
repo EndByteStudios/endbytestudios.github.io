@@ -3,6 +3,10 @@ on:
   push:
     branches:
       - main
+
+permissions:
+  contents: write # Allow GitHub Actions to push to gh-pages
+
 jobs:
   build:
     runs-on: ubuntu-latest
