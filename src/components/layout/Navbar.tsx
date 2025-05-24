@@ -50,6 +50,7 @@ const Navbar: React.FC = () => {
             <NavLink to="/" label="Home" />
             <NavLink to="/resources" label="Resources" />
             <NavLink to="/about" label="About" />
+            <NavLink to="/guidelines" label="Guidelines" />
           </nav>
 
           {/* Mobile Menu Button */}
@@ -79,6 +80,7 @@ const Navbar: React.FC = () => {
             <NavLink to="/" label="Home" mobile />
             <NavLink to="/resources" label="Resources" mobile />
             <NavLink to="/about" label="About" mobile />
+            <NavLink to="/guidelines" label="Guidelines" mobile />
           </div>
         </motion.nav>
       )}
